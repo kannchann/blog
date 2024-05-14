@@ -111,7 +111,7 @@ h1 {
     height: 100vh;
 }
 .container {
-  padding: 24px 10% 0px;
+  padding: 24px 10%;
 }
 
 .hero-items {
@@ -190,17 +190,17 @@ h1 {
     margin: 0 auto;
   }
 
-  #cards{
-    display: flex;
-  }
+
 
 
   /* portfolio-tracking  */
+  #portfolio-tracking{
+    background-color: #FAFBFF;
+  }
   .portfolio-row{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FAFBFF;
     padding-top: 42px;
     padding-bottom: 42px;
     flex-wrap: wrap;
@@ -236,9 +236,45 @@ h1 {
     top: -20px;
 
   }
-  #cards{
-    padding: 18px;
+ .card-container{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+   
   }
+  
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    padding: 18px;
+    max-width: 300px;
+    border: solid #DBE4E9;
+    border-radius: 10px;
+   align-items: center;
+
+  }
+
+  .card-image-small{
+    height: 10px;
+     width:30px;
+     background-color: black;
+     margin-bottom: 2px;
+  }
+  .card-image-big{
+    height: 30px;
+     width:50px;
+     background-color: #3734A9;
+  }
+  .container .card>h3{
+    text-align:left
+   }
+
+
 
 
 
