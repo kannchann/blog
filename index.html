@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intuji Internship</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-</head>
-<body>
-    <section class="gradient-background">
-        <nav class="navbar">
-            <a href="#"><img src="images/logo.svg" alt="Company Logo: two hands with card" class="logo"></a>
-            <div class="nav-toggle">
-                <img src="images/hamburger-menu.svg" alt="Menu Toggle">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="gradient-background">
+      <!-- navbar -->
+      <nav class="navbar">
+        <a href="#"
+          ><img
+            src="images/logo.svg"
+            alt="Company Logo: two hands with card"
+            class="logo"
+        /></a>
+        <div class="nav-toggle">
+          <img src="images/hamburger-menu.svg" alt="Menu Toggle" />
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="#"
+              >Product <img src="images/chevron.svg" alt="chevron"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              >Template <img src="images/chevron.svg" alt="chevron"
+            /></a>
+          </li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+        <div class="nav-items">
+          <a href="#" class="sign-in">Sign In</a>
+          <button class="nav-button">Start free</button>
+        </div>
+      </nav>
+
+      <!-- hero-section -->
+      <section class="hero-section">
+        <img src="images/bird-decor2.svg" alt="" class="bird-decor-left" />
+        <img src="images/bird-decor1.svg" alt="" class="bird-decor-right" />
+        <img src="images/hero-decor-blue-pic.svg" alt="" class="hero-decor-blue-pic" />
+
+        <div class="container">
+          <div class="hero-items">
+            <div class="hero-description">
+              <h1>Managing freelance payments has never been easier</h1>
+              <p class="hero-paragraph"">Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing.</p>
+              <div id="hero-buttons">
+                <button class="hero-button">Get Started</button>
+                <div class="video-link">
+                    <img src="images/videologo.svg" alt="">
+                    <a href="" > See how it works</a>
+                </div>
+              </div>
+              <div class="benifits">
+                <img src="images/checkbox.svg" alt=""><p>Free register</p>
+                <img src="images/checkbox.svg" alt=""><p>Free register</p>
+              </div>
             </div>
-            <ul class="nav-list">
-                <li><a href="#">Product <img src="images/chevron.svg" alt="chevron"></a></li>
-                <li><a href="#">Template <img src="images/chevron.svg" alt="chevron"></a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Pricing</a></li>
-            </ul>
-            <div class="nav-items">
-                <a href="#" class="sign-in">Sign In</a>
-                <button class="nav-button">Start free</button>
-            </div>
-        </nav>
-    </section>
+            <div class="hero-image">
+              <img src="images/hero-section.svg" alt="hands with card" />
+            </div> 
+          </div>
+        </div>
+      </section>
+    </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
