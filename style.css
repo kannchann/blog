@@ -437,6 +437,35 @@ color:    #757095;
   align-items: start;
 }
 
+/* testimonials */
+#testimonials{
+  background-color: #FAFBFF;
+  overflow: hidden;
+ 
+}
+#testimonials .container{
+  padding-right: 0%;
+}
+.testimonial-container{
+  display: flex;
+
+}
+
+#testimonials .caption-card{
+  background-color: white;
+  min-width: 50%;
+  border: solid #CFCFCF;
+  margin-right: 40px;
+}
+.testimonial-card{
+  display: flex;
+}
+
+.testimonial-container {
+  display: flex;
+  transition: transform 0.5s ease; /* Add transition for smooth sliding */
+}
+
 
 
 
@@ -552,6 +581,11 @@ color:    #757095;
   .total-balance-placeholder {
     display: none;
   }
+
+  .testimonial-card img{
+    display: none;
+  }
+
 
 
 
