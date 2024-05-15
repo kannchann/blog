@@ -94,8 +94,6 @@ h1 {
 
 .hero-description {
     max-width: 65%;
-
-  
 }
 
 .bird-decor-left {
@@ -663,7 +661,47 @@ display: inline;
   transform: rotate(90deg);
 }
 
+.footer-grid{
+ 
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-template-rows: 12fr;
+  justify-content: flex-start;
+  align-items: center;
+}
 
+.footer-grid p{
+  font-size: 14px;
+  color: #757095 ;
+}
+
+
+.footer-grid li{
+  list-style: none;
+  padding: 8px;
+
+
+ 
+}
+
+.newsletter-placeholder{
+  display: flex;
+}
+.newsletter-placeholder input{
+  font-size: 20px;
+
+}
+.social-icons img{
+  padding-right: 8px;
+  
+}
+
+
+.copyright p{
+  padding-bottom: 24px;
+  text-align: center;
+
+}
 
 
 
