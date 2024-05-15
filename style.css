@@ -1,6 +1,7 @@
 body {
   font-family: "Manrope", sans-serif;
   margin: 0;
+  background-color: #FAFBFF;
 }
 
 .gradient-background {
@@ -601,6 +602,70 @@ display: inline;
 
 
 
+.discover-container{
+  background-color: #3734A9;
+  border-radius: 10px;
+  text-align: center;
+  padding: 32px;
+  color: white;
+  width: auto;
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 24px;
+ 
+}
+
+
+
+.get-started-main .orange-button{
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.get-started-main h2{
+  font-size: 2.5rem;
+  margin: 24px;
+
+
+
+}
+.dotvector{
+  position: absolute;
+  top: 30%;
+  left:20%
+}
+.pizza-vector-one{
+  position: absolute;
+  top: 80%;
+  left: 30%;
+
+}
+.pizza-vector-two{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+
+}
+.snake-vector{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+.snake-vector-rotated{
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  transform: rotate(90deg);
+}
+
+
+
+
 
 
 
@@ -742,10 +807,9 @@ display: inline;
     padding: 8px;
   }
 
-
-
-
-
+  .discover-container img{
+    display: none;
+  }
 
 
 
