@@ -848,9 +848,18 @@ display: inline;
   .discover-container img{
     display: none;
   }
+  
+ 
 
 
 
+  
+}
+
+@media(max-width:970px){
+  .div-one,.div-two,.div-three{
+    display: none;
+  }
   
 }
 
