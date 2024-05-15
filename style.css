@@ -548,6 +548,58 @@ color:    #757095;
 
 }
 
+/* frequent questions  */
+#questions{
+  background-color: #FAFBFF;
+}
+.question-card{
+
+  background-color: white;
+  border-radius: 5px;
+  border: solid  #DBE4E9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:8px 8px 8px 8px;
+  margin-top: 12px;
+  margin-right: 24px;
+ 
+}
+.question-card p, .question-card h4{
+  font-size: 14px;
+  margin: 0px;
+  padding:0px;
+}
+.plus-sign p,.plus-sign{
+padding: 0px;
+display: inline;
+ font-size: 32px;
+  color: #3D3D3D;
+}
+
+.questions-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.more-questions { 
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: space-around;
+
+
+
+
+
+}
+
+.orange-button{
+  background-color: #FF7F5C;
+}
+
+
 
 
 
@@ -678,6 +730,17 @@ color:    #757095;
   flex-direction: column;
   }
 
+
+  .questions-container{
+    flex-direction: column;
+    align-content: space-evenly;
+  }
+  .more-questions{
+   padding: 24px;
+  }
+  .more-questions p{
+    padding: 8px;
+  }
 
 
 
