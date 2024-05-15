@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   
     function slideToNextTestimonial() {
-      if (totalTestimonials <= 2) return; // Don't slide if only one testimonial
+      if (totalTestimonials <= 1) return; // Don't slide if only one testimonial
   
       currentIndex = (currentIndex + 1) % totalTestimonials;
       updateTestimonialPosition();
   
       // Reset to the first testimonial position after reaching the last testimonial
-      if (currentIndex <= 0) {
+      if (currentIndex === 0) {
         setTimeout(() => {
           testimonialContainer.style.transition = 'none';
           testimonialContainer.style.transform = `translateX(0)`;
@@ -37,6 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
   
-    setInterval(slideToNextTestimonial, 2000); // Change slide every 5 seconds
+    setInterval(slideToNextTestimonial, 3000); // Change slide every 5 seconds
   });
   

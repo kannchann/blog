@@ -468,6 +468,23 @@ color:    #757095;
 
 
 
+/* numbers */
+#numbers{
+  background-color:#3734A9 ;
+  color: white;
+}
+
+#numbers .container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+#numbers p img{
+  padding-right: 8px;
+}
+
 
 
 
