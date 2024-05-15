@@ -253,9 +253,10 @@ h1 {
   .card{
     display: flex;
     flex-direction: column;
-    margin: 12px;
+    margin-bottom: 20px;
     padding: 18px;
     max-width: 300px;
+    background-color: white;
     border: solid #DBE4E9;
     border-radius: 10px;
    align-items: center;
@@ -427,6 +428,15 @@ color:    #757095;
 }
 
 
+/* features  */
+#features{
+  background-color: #C9E7F2;
+}
+
+.features-card{
+  align-items: start;
+}
+
 
 
 
@@ -542,6 +552,8 @@ color:    #757095;
   .total-balance-placeholder {
     display: none;
   }
+
+
 
 
 
