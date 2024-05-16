@@ -2,6 +2,7 @@ body {
   font-family: "Manrope", sans-serif;
   margin: 0;
   background-color: #FAFBFF;
+  
 }
 
 .gradient-background {
@@ -710,6 +711,9 @@ display: inline;
 
 
 @media (max-width: 768px) {
+  .navbar{
+    padding: 24px 5%;
+  }
   .nav-list {
     flex-direction: column;
     display: none;
@@ -765,7 +769,7 @@ display: inline;
 
   .hero-items {
     flex-direction: column;
-    text-align: center;
+ 
     
   }
 
@@ -776,21 +780,15 @@ display: inline;
     
   }
 
- #hero-buttons, .benifits{
-    justify-content: center;
-  }
+
 
   .hero-image {
-    max-width: 40%;
-    height: auto;
-    padding-bottom: 0px;
+   display: none;
   }
   .bird-decor-left,.bird-decor-right,.hero-decor-blue-pic{
     display: none;
   }
-  h1 {
-    font-size: 1.5rem;
-  }
+
   .hero-paragraph p a{
     font-size: 16px;
   }
@@ -802,18 +800,21 @@ display: inline;
     
   }
 
-  .portfolio-row{
-    justify-content: center;
+  .portfolio-row .caption-card, .portfolio-row .flex-column{
+    width: 100%;
   }
-  .portfolio-row h2, .portfolio-row p{
-    text-align: center;
-  }
+
+  
   .choose-us-reasons{
     width: 100%;
   }
 
   .total-balance-placeholder {
     display: none;
+  }
+
+  #testimonials{
+    margin-bottom: 24px;
   }
 
   .testimonial-card img{
@@ -849,7 +850,29 @@ display: inline;
     display: none;
   }
   
- 
+ .notification-card-2,.notification-card-3{
+  left: 0px;
+
+ }
+ .cash-recieved{
+  width: 100%;
+ }
+
+ .notification-card{
+  width: 80% ;
+ }
+
+ .portfolio-row .caption-card{
+  margin-bottom: 20px;
+ }
+
+ #numbers p img{
+  display: none;
+ }
+
+ .responsive-footer{
+  grid-column:  span 4;
+ }
 
 
 
